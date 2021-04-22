@@ -48,3 +48,5 @@ Here is bios table section extracted with UEFITool:
 0x368E8 			One Of Option: MAX, Value (8 bit): 0x3 {09 0E D6 04 00 00 03 00 00 00 00 00 00 00}
 0x368F6 		End One Of {29 02}
 ```
+# What is working
+Everything is working. LAN, WIFI and Bluetooth all work. I have created custom USBMap.kext, so all USB ports are working.
