@@ -7,7 +7,7 @@
 - WiFi/Bluetooth DW1550 (BCM94352HMB) Half-size mini-PCIe card. Works with AirportBrcmFixup.kext, BrcmBluetoothInjector.kext, BrcmFirmwareData.kext and BrcmPatchRAM3.kext.
 
 # BIOS
-- Latest F7
+- Press F2 to enter the BIOS. Use latest available bios for this BRIX F7.
 - Disable CFG-Lock
 - Disable VT-d
 
