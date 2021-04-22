@@ -15,7 +15,7 @@
 - Version 0.6.8
 - Fill in your own PlatformInfo
 - For Big Sur use iMac14,4 SMBIOS
-- Using included modGRUBShell.efi set values for DVMT Pre-Allocated and DVMT Total Gfx Mem to the following:
+- From Opencore boot screen go to modGRUBShell and set the values for DVMT Pre-Allocated and DVMT Total Gfx Mem to the following:
 ```
 setup_var 0x30A 0x03
 setup_var 0x30B 0x03
