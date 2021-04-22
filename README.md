@@ -1,17 +1,17 @@
 # Gigabyte-BXi5-4570R with Opencore 0.6.8
-# Specs
+## Specs
 - CPU - i5-4570R 4 cores and 4 threads.
 - RAM 2x8GB 1600MHz DDR3 SO-DIMM Kingston KVR16LS11/8.
 - SSD 1TB Samsung mSATA T5 Portable.
 - SSD 2TB Samsung 870 QVO.
 - WiFi/Bluetooth DW1550 (BCM94352HMB) Half-size mini-PCIe card. Works with AirportBrcmFixup.kext, BrcmBluetoothInjector.kext, BrcmFirmwareData.kext and BrcmPatchRAM3.kext.
 
-# BIOS
+## BIOS
 - Press F2 to enter the BIOS. Use latest available bios for this BRIX F7.
 - Disable CFG-Lock
 - Disable VT-d
 
-# Opencore
+## Opencore
 - Version 0.6.8
 - Fill in your own PlatformInfo
 - For Big Sur use iMac14,4 SMBIOS
@@ -49,7 +49,7 @@ Here is bios table section extracted with UEFITool:
 0x368E8 			One Of Option: MAX, Value (8 bit): 0x3 {09 0E D6 04 00 00 03 00 00 00 00 00 00 00}
 0x368F6 		End One Of {29 02}
 ```
-# What is working
+## What is working
 Everything is working. LAN, WIFI and Bluetooth all work. I have created custom USBMap.kext, so all USB ports are working.
 Since WiFi module is not native to macOS and requires kexts to work properly, bluetooth keyboard/mouse would not work in the bios. Use wired ones.
 Audio is woring with Layout ID 10. Headphone jack is working.
