@@ -7,6 +7,7 @@
 - WiFi/Bluetooth DW1550 (BCM94352HMB) Half-size mini-PCIe card. Works with AirportBrcmFixup.kext, BrcmBluetoothInjector.kext, BrcmFirmwareData.kext and BrcmPatchRAM3.kext.
 
 # BIOS
+- Latest F7
 - Disable CFG-Lock
 - Disable VT-d
 
