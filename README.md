@@ -50,3 +50,5 @@ Here is bios table section extracted with UEFITool:
 ```
 # What is working
 Everything is working. LAN, WIFI and Bluetooth all work. I have created custom USBMap.kext, so all USB ports are working.
+Since WiFi module is not native to macOS and requires kexts to work properly, bluetooth keyboard will not work in the bios and on the Opencore screen. One has to use USB wire for that.
+Audio is woring with Layout ID 10. Headphone jack is working.
