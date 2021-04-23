@@ -7,14 +7,13 @@
 - WiFi/Bluetooth DW1550 (BCM94352HMB) Half-size mini-PCIe card. Works with AirportBrcmFixup.kext, BrcmBluetoothInjector.kext, BrcmFirmwareData.kext and BrcmPatchRAM3.kext.
 
 ## BIOS
-- Press F2 to enter the BIOS. Use latest available bios for this BRIX F7.
+- Press F2 to enter the BIOS. Use latest available bios for this BRIX is F7.
 - Disable CFG-Lock
 - Disable VT-d
 
 ## Opencore
 - Version 0.6.8
-- Fill in your own PlatformInfo
-- For Big Sur use iMac14,4 SMBIOS
+- Fill in your own PlatformInfo. For Big Sur use iMac14,4 SMBIOS.
 - From Opencore boot screen go to modGRUBShell and set the values for DVMT Pre-Allocated and DVMT Total Gfx Mem to the following:
 ```
 setup_var 0x30A 0x03
