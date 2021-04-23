@@ -14,6 +14,7 @@
 - Press F2 to enter the BIOS. Use latest available bios for this BRIX which is F7.
 - Disable CFG-Lock
 - Disable VT-d
+- Disable CSM start
 
 ## Opencore
 - Version 0.6.8
