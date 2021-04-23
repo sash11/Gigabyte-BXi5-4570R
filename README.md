@@ -7,7 +7,7 @@
 - CPU - i5-4570R 4 cores and 4 threads.
 - RAM 2x8GB 1600MHz DDR3 SO-DIMM Kingston KVR16LS11/8.
 - SSD 1TB Samsung mSATA T5 Portable.
-- SSD 2TB Samsung 870 QVO.
+- SSD 2TB Samsung SATA 870 QVO.
 - WiFi/Bluetooth DW1550 (BCM94352HMB) Half-size mini-PCIe card. Works with AirportBrcmFixup.kext, BrcmBluetoothInjector.kext, BrcmFirmwareData.kext and BrcmPatchRAM3.kext.
 
 ## BIOS
