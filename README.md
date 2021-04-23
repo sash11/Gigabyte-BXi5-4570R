@@ -1,4 +1,7 @@
 # Gigabyte-BXi5-4570R with Opencore 0.6.8
+<p align="center">
+  <img src="Docs/AboutThisMac.png" width="100%" align=center">
+ </p>
 ## Specs
 - CPU - i5-4570R 4 cores and 4 threads.
 - RAM 2x8GB 1600MHz DDR3 SO-DIMM Kingston KVR16LS11/8.
