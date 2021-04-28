@@ -11,7 +11,7 @@
 | ------------- | --------- |
 | CPU | i5-4570R 4 cores and 4 threads @ 3.2GHz |
 | RAM | 2x8GB 1600MHz DDR3 SO-DIMM Kingston KVR16LS11/8 |
-| Audio Chipset | Realtek ALC269 |
+| Audio Chipset | Realtek ALC269. Works with Layout-id 10 |
 | GPU | Intel Iris Pro Graphics 5200 |
 | WiFi & Bluetooth | DW1550 (BCM94352HMB) Half-size mini-PCIe |
 | Lan |  Gigabit LAN (Realtek RTL8111G) |
