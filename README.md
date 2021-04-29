@@ -7,11 +7,16 @@
  </p>
 
 ## Specs
-- CPU - i5-4570R 4 cores and 4 threads.
-- RAM 2x8GB 1600MHz DDR3 SO-DIMM Kingston KVR16LS11/8.
-- SSD 1TB Samsung mSATA T5 Portable.
-- SSD 2TB Samsung SATA 870 QVO.
-- WiFi/Bluetooth DW1550 (BCM94352HMB) Half-size mini-PCIe card. Works with AirportBrcmFixup.kext, BrcmBluetoothInjector.kext, BrcmFirmwareData.kext and BrcmPatchRAM3.kext.
+| **Component** | **Model** |
+| ------------- | --------- |
+| CPU | i5-4570R 4 cores and 4 threads @ 3.2GHz |
+| RAM | 2x8GB 1600MHz DDR3 SO-DIMM Kingston KVR16LS11/8 |
+| Audio Chipset | Realtek ALC269. Works with Layout-id 10 |
+| GPU | Intel Iris Pro Graphics 5200 |
+| WiFi & Bluetooth | DW1550 (BCM94352HMB) Half-size mini-PCIe |
+| Lan |  Gigabit LAN (Realtek RTL8111G) |
+| OS Disk | 1TB Samsung mSATA T5 Portable |
+| macOS | Big Sur 11.3/ OpenCore 0.6.8
 
 ## BIOS
 - Press F2 to enter the BIOS. Use latest available bios for this BRIX which is F7.
@@ -20,7 +25,6 @@
 - Disable CSM start
 
 ## Opencore
-- Version 0.6.8
 - Fill in your own PlatformInfo. For Big Sur use iMac14,4 SMBIOS.
 - From Opencore boot screen go to modGRUBShell and set the values for DVMT Pre-Allocated and DVMT Total Gfx Mem to the following:
 ```
