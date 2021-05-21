@@ -20,18 +20,19 @@
 
 ## BIOS
 - Press F2 to enter the BIOS. Use latest available bios for this BRIX which is F7.
-- Disable CFG-Lock
-- Disable VT-d
-- Disable CSM start
+- SATA Mode AHCI
+- XHCI Mode Smart Auto
+- CFG-Lock Disabled
+- Launch CSM Disabled
 
 ## Opencore
 - Fill in your own PlatformInfo. For Big Sur use iMac14,4 SMBIOS.
 - From Opencore boot screen go to modGRUBShell and set the values for DVMT Pre-Allocated and DVMT Total Gfx Mem to the following:
 ```
-setup_var 0x30A 0x03
+setup_var 0x30A 0x04
 setup_var 0x30B 0x03
 ```
-This will set DVMT Pre-Allocated to 96MB and DVMT Total Gfx Mem to MAX
+This will set DVMT Pre-Allocated to 128MB and DVMT Total Gfx Mem to MAX
 
 Here is bios table section extracted with UEFITool:
 ```
