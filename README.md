@@ -1,4 +1,4 @@
-# Gigabyte-BXi5-4570R with Opencore 0.6.9
+# Gigabyte-BXi5-4570R with Opencore 0.7.0
 <p align="center">
   <img src="Docs/AboutThisMac.png" align=center">
  </p>
