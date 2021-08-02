@@ -16,7 +16,7 @@
 | WiFi & Bluetooth | DW1550 (BCM94352HMB) Half-size mini-PCIe |
 | Lan |  Gigabit LAN (Realtek RTL8111G) |
 | OS Disk | 1TB Samsung mSATA T5 Portable |
-| macOS | Big Sur 11.4 / OpenCore 0.7.1
+| macOS | Big Sur 11.5.1 / OpenCore 0.7.1
 
 ## BIOS
 - Press F2 to enter the BIOS. Use latest available bios for this BRIX which is F7.
