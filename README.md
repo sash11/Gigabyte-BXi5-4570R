@@ -5,6 +5,9 @@
  <p align="center">
   <img src="Docs/PCI.png" align=center">
  </p>
+   <p align="center">
+  <img src="Docs/Geekbench5.png" align=center">
+ </p>
 
 ## Specs
 | **Component** | **Model** |
