@@ -72,4 +72,4 @@ Both HDMI and mDP ports work. I'm using dual monitor setup. There is an issue wi
 Facetime and iMessage both work fine. Hand-off also works.
 
 ## What is not working
-As this is iGPU only system, DRM protected content is not working as per https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#fixing-drm-support-and-igpu-performance.
+As this is iGPU only system, DRM protected content is not working as per [Fixing DRM support][https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#fixing-drm-support-and-igpu-performance].
