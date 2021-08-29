@@ -69,3 +69,7 @@ Everything is working. LAN, WIFI and Bluetooth all work. I have created custom U
 Since WiFi module is not native to macOS and requires kexts to work properly, bluetooth keyboard/mouse would not work in the bios. Use wired ones.
 Audio is working with Layout-ID 10. Headphone jack is working. HDMI audio is also working.
 Both HDMI and mDP ports work. I'm using dual monitor setup. There is an issue with 4k resolution. Out of the box it does not show up as an option. I had to tinker with the system to get it working. Working on a 4k resolution is not pleasant as things are too small on the screen. So I default to 2560x1440 at 60Hz.
+Facetime and iMessage both work fine. Hand-off also works.
+
+## What is not working
+As this is iGPU only system, DRM protected content is not working as per https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#fixing-drm-support-and-igpu-performance.
