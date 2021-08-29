@@ -73,5 +73,6 @@ Facetime and iMessage both work fine. Hand-off also works.
 
 ## What is not working
 As this is iGPU only system, DRM protected content is not working as per [Fixing DRM support][1].
+AppleTV+ is not working therefore. Netflix is ok through Chrome browser.
 
 [1]:https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#fixing-drm-support-and-igpu-performance
