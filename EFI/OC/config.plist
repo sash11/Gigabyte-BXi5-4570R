@@ -817,7 +817,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v</string>
+				<string>-v alcid=10</string>
 				<key>csr-active-config</key>
 				<data>
 				/w8AAA==
