@@ -1,4 +1,4 @@
-# Gigabyte-BXi5-4570R with Opencore 0.7.3
+# Gigabyte-BXi5-4570R with Opencore 0.7.4
 <p align="center">
   <img src="Docs/AboutThisMac.png" align=center">
  </p>
@@ -19,7 +19,7 @@
 | WiFi & Bluetooth | DW1550 (BCM94352HMB) Half-size mini-PCIe |
 | Lan |  Gigabit LAN (Realtek RTL8111G) |
 | OS Disk | 1TB Samsung mSATA T5 Portable |
-| macOS | Big Sur 11.6/OpenCore 0.7.3
+| macOS | Big Sur 11.6.1/OpenCore 0.7.4
 
 ## BIOS
 - Press F2 to enter the BIOS. Use latest available bios for this BRIX which is F7.
